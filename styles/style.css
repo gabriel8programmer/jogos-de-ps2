@@ -1,0 +1,90 @@
+/*formatação do corpo da pagina*/
+body {
+	padding:0px;
+	margin: 0px;
+	background: black;
+	color:white;
+}
+
+/*formatação para o cabeçalho da pagina*/
+header {
+	padding:10px;
+	background: #777;
+	display:flex;
+	align-items: center;
+}
+
+#logo {
+	width: 100px;
+	height:100px;
+}
+
+#logo a:hover {
+	filter: brightness(125%);
+}
+
+#logo img {
+	width:100%;
+	height: 100%;
+}
+
+#titulo-pagina {
+	flex:50%;
+	display:flex;
+	font-size: 10pt;
+	justify-content: center;
+}
+
+#titulo-pagina h1 {
+	text-shadow: 2px 2px 15px black;
+}
+
+
+/*formatação para a barra de navegação*/
+nav {
+	display:flex;
+	align-items: center;
+}
+
+nav a {
+	display:block;
+}
+
+
+
+/*formatação para a secao da pagina*/
+section {
+	background: #555;
+}
+
+
+/*formatação do rodape da pagina*/
+footer {
+	background-color:#777;
+	padding:20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#copyright p{
+	text-shadow: 2px 2px 15px black;
+	flex:100%;
+}
+
+#redes-sociais{
+	flex:100%;
+	display:flex;
+	justify-content: center;
+}
+
+div.rede {
+	width:50px;
+	height: 50px;
+}
+
+div.rede img {
+	width:100%;
+	height:100%;
+}
+
